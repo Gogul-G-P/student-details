@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Security
 SECRET_KEY = os.environ.get(
     "SECRET_KEY",
-    "django-insecure-local-development-key-change-this",
+    "django-prod-8f2c91a7d4e64b0fb63e5a921c7d8e4a",
 )
 
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
